@@ -1,0 +1,157 @@
+/* Tabla de contenidos */
+
+/*
+1 cuerpo y parrafos
+2 color primario
+3 hover color y lighter or darker shade of primary color for hover secondary color
+4 color secundario
+5 slider, y overlay color
+6 color con opacidad
+7 colores oscuros footer
+8 seleccion de texto color
+/*
+
+/* Color de ESTILO 
+1 Cuerpo y parrafo -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --  */
+body,
+.services-item p{
+	color: #ffbe2c
+}
+
+/* 2 Color primario -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a:hover,
+a:focus,
+.highlight,
+.navbar-custom a,
+.services-item i,
+.client-info h4,
+blockquote {
+	color: #ffbe2c; /*color primario */
+}
+
+
+.pace .pace-progress,
+.overlay,
+.products-container span.icon,
+.full-project,
+.project-navigation a:hover,
+.our-clients,
+.cta-two-section,
+.full-project,
+.btn-default,
+.btn-overcolor,
+.client-testimonials.owl-theme .owl-controls .owl-page span,
+.recent-project-carousel.owl-theme .owl-controls .owl-page span,
+.scroll-top a:link,
+.scroll-top a:visited {
+    background: #ffbe2c; /* Primary color */
+}
+
+.services-item:before {
+    border-bottom-color: #ffbe2c; /* color primario */
+    border-left-color: #ffbe2c; /* color primario */
+}
+
+.testimonials p.speech,
+.btn-default,
+.scroll-top a:link,
+.scroll-top a:visited,
+blockquote {
+    border-color: #ffbe2c; /* color primario*/
+}
+
+.testimonials p.speech:before {
+    border-top-color: #ffbe2c; /* color primario */
+    border-left-color: #ffbe2c; /* color primario */
+}
+
+
+/* 3 Hover color - tonalidades claras y oscuras del color primario -- -- -- -- -- -- -- -- -- -- */
+
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-overcolor:hover,
+.btn-overcolor:focus,
+.scroll-top a:hover {
+    border: 1px solid #f2ab1f; /* Hover color */
+    background: #f2ab1f; /* Hover color */
+}
+
+.full-project:hover {
+    background: #f2ab1f; /* Hover color */
+}
+
+.btn-overcolor:hover{
+    border: 1px solid #ffac38; /* Optional Hover border color */
+}
+
+/* 4 color secundario -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -*/
+
+.our-clients {
+    background: #2f3436; /* color secundario */
+}
+
+.btn-outlined {
+    border: 1px solid #2f3436; /* color secundario*/
+    background-color: #2f3436; /* color secundario */
+}
+
+
+.btn-outlined:hover,
+.btn-outlined:focus{
+	color:#2d2d37; /* color secundario */
+    border: 1px solid #2f3436; /* color secundario */
+}
+
+/* 5 Slider y overlay color -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+
+.overlay-detail{
+	background: #000; /* optional color for overlay */
+}
+
+/* 6 colores con opacidad 
+Necesitan estar en RGBA y los puedes cambiar en http://hex2rgba.devoth.com/  -- -- -- -- -- -- -- -- -*/
+
+.navbar-custom.top-nav-collapse,
+.carousel-control.left:hover,
+.carousel-control.right:hover,
+.team-member figure:hover figcaption,
+.services-item:hover,
+#cd-zoom-in, #cd-zoom-out{
+	background-color: rgba(255,190,44, 0.9); /* RGBA of Primary color - opacity .9 */
+}
+
+/* 7 Color oscuro y footer color -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+
+footer,
+footer .copynote {
+    background: rgba(47,52,54, .90); /* Dark color/Footer color */
+}
+
+/* 8 Seleccion de color -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+
+::-moz-selection {
+    background: rgba(255,190,44, .7); /* RGBA of Primary color - opacity .7 */
+}
+
+::selection {
+    background: rgba(255,190,44 .7); /* RGBA of Primary color - opacity .7 */
+}
+
+body {
+    webkit-tap-highlight-color: rgba(255,190,44, .7); /* RGBA of Primary color - opacity .7 */
+}
+
+
+
+
+
+
